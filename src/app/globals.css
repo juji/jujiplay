@@ -2,30 +2,21 @@
 :root {
   --max-width: 980px;
   --padding: 1rem;
-  --background-color: #0e0e0e; 
+  --sign-bg: #71a717;
+  --white: rgba(255, 255, 255, 0.87);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--white);
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  background-color: var(--background-color);
-  transition: background-color 1000ms;
-  /* 0e0e0e */
-  /* cc3535 */
-  /* de5725 */
-  /* 62930d */
-  /* 39930d */
-  /* 10837a */
-  /* 003fa8 */
-  /* 6e00aa */
-  /* aa0067 */
+  background-color: #0e0e0e;
   @media screen and (min-width: 400px){
     &{
       --padding: 2rem;

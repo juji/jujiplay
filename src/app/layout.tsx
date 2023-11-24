@@ -22,17 +22,14 @@ export default function RootLayout({
         (function(){
           // i enjoy some js freedom
           const bg = [
-            '#1b1b1b',
-            '#000000',
-            '#0e0e0e',
-            '#cc3535',
-            '#de5725',
-            '#71a717',
+            '#1ABC9C',
+            '#2ECC71',
+            '#3498DB',
             '#39930d',
-            '#009286',
-            '#0048c4',
-            '#6e00aa',
-            '#aa0067'
+            '#9B59B6',
+            '#16A085',
+            '#E67E22',
+            '#E74C3C'
           ];
           let current = '';
           function getBg(){
@@ -40,9 +37,9 @@ export default function RootLayout({
             return now === current ? getBg() : now
           }
           const html = document.querySelector('html');
-          html && html.style.setProperty('--background-color', current = getBg());
+          html && html.style.setProperty('--sign-bg', current = getBg());
           document.addEventListener('click',() => {
-            html && html.style.setProperty('--background-color', current = getBg());
+            html && html.style.setProperty('--sign-bg', current = getBg());
           })
         })()
         `}}></script>

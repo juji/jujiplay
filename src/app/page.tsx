@@ -13,11 +13,20 @@ export default function Home() {
         <a className={styles.logo} href="/">
           <Image 
             className={styles.logoImage}
-            src="/jujiplay.svg" 
+            src="/logo.svg" 
             alt="jujiplay" 
-            width={200}
+            width={157}
             height={72}
           />
+          <span className={styles.logoPlay}>
+            <Image 
+              className={styles.logoPlayImage}
+              src="/play.svg" 
+              alt="play" 
+              width={25}
+              height={14}
+            />
+          </span>
         </a>
 
         <h1 className={styles.h1}>It&apos;s play time!!</h1>
