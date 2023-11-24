@@ -42,7 +42,8 @@
 
       &.logoPlay:before{
         content: ' ';
-        background: var(--sign-bg);
+        background-color: var(--sign-bg);
+        transition: background-color 200ms;
         position: absolute;
         width: 100%;
         height: 100%;
