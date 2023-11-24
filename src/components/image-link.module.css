@@ -1,0 +1,25 @@
+.link{
+
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #181818;
+  border: 1px solid white;
+
+  & .image{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform-origin: center center;
+    transition: transform 300ms;
+  }
+
+  &.link:hover{
+    & .image{
+      transform: scale3d(1.1,1.1,1);
+    }
+  }
+}
