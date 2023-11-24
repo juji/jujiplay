@@ -10,11 +10,11 @@ export default function Home() {
     <div className={`container ${styles.container}`}>
       <main className={styles.main}>
 
-        <a className={styles.logo} href="/">
+        <a className={styles.logo} aria-label="play!!" href="/">
           <Image 
             className={styles.logoImage}
             src="/logo.svg" 
-            alt="jujiplay" 
+            alt="juji" 
             width={157}
             height={72}
           />

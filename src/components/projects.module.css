@@ -4,9 +4,13 @@
 
   margin: 3rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
 
   margin-bottom: 5rem;
 
+  @media screen and (min-width:768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
 }
