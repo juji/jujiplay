@@ -28,9 +28,9 @@ const projects = [
     imageLarge: '/circular.png',
   },
   {
-    id: 'clifford-dejong',
-    href: 'https://clifford-dejong.jujiplay.com',
-    label: 'Clifford Dejong',
+    id: 'wallpaper',
+    href: 'https://wallpaper.jujiplay.com',
+    label: 'Wallpaper',
     imageSmall: '/clifford-dejong-600.webp',
     imageMedium: '/clifford-dejong.webp',
     imageLarge: '/clifford-dejong.png',
