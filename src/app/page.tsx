@@ -37,7 +37,8 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <div className={styles.content}>
-          Made by <a href="https://jujiyangasli.com">juji</a>
+          Made by <a rel="noopener noreferer" target="_blank" 
+            href="https://jujiyangasli.com">juji</a>
         </div>
       </footer>
     </div>
