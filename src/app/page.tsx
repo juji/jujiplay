@@ -29,8 +29,8 @@ export default function Home() {
           </span>
         </a>
 
-        <h1 className={styles.h1}>It&apos;s play time!!</h1>
-        <p className={styles.p}>If's fun to code</p>
+        <h1 className={styles.h1}>Play time!!</h1>
+        <p className={styles.p}>It&apos;s fun to code</p>
 
         <Projects />
 
