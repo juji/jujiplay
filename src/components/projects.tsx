@@ -7,7 +7,6 @@ const projects = [
     id: 'boids',
     href: 'https://boids.jujiplay.com',
     label: 'Boids',
-    full: true,
     imageSmall: '/boids-600.webp',
     imageMedium: '/boids.webp',
     imageLarge: '/boids.png',
@@ -49,7 +48,13 @@ const projects = [
 export default function Projects(){
 
   return <div className={styles.projects}>
-    {projects.map(project => <ImageLink key={project.id} {...project} />)}
+    {projects.map((project,i) => (
+      <ImageLink 
+        key={project.id} 
+        full={!i && !!(projects.length%2)} 
+        {...project} 
+      />
+    ))}
   </div> 
 
 }
