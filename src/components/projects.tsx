@@ -4,6 +4,15 @@ import ImageLink from './image-link'
 
 const projects = [
   {
+    id: 'boids',
+    href: 'https://boids.jujiplay.com',
+    label: 'Boids',
+    full: true,
+    imageSmall: '/boid-600.webp',
+    imageMedium: '/boid.webp',
+    imageLarge: '/boid.png',
+  },
+  {
     id: 'attractors',
     href: 'https://attractors.jujiplay.com',
     label: 'Attractors',

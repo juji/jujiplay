@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sharp:install": "npm i --no-save sharp",
+    "resize": "cd utils; node resize.js"
   },
   "dependencies": {
     "next": "14.0.3",

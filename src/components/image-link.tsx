@@ -6,6 +6,7 @@ export default function ImageLink({
   id,
   href,
   label,
+  full,
   imageSmall,
   imageMedium,
   imageLarge
@@ -13,6 +14,7 @@ export default function ImageLink({
   id: string
   href: string
   label: string
+  full?: boolean
   imageSmall: string
   imageMedium: string
   imageLarge: string
@@ -22,7 +24,7 @@ export default function ImageLink({
     id={id}
     target="_blank"
     rel="noopener noreferer"
-    className={styles.link} href={href} aria-label={label}>
+    className={`${styles.link} ${full?styles.full:''}`} href={href} aria-label={label}>
     <picture>
       <source media="(max-width: 600px)" srcSet={imageSmall} />
       <source media="(min-width: 601px)" srcSet={imageMedium} />
