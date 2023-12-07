@@ -13,6 +13,22 @@ const projects = [
     imageLarge: '/boid.png',
   },
   {
+    id: 'wallpaper',
+    href: 'https://wallpaper.jujiplay.com',
+    label: 'Wallpaper',
+    imageSmall: '/clifford-dejong-600.webp',
+    imageMedium: '/clifford-dejong.webp',
+    imageLarge: '/clifford-dejong.png',
+  },
+  {
+    id: 'circular',
+    href: 'https://circular.jujiplay.com',
+    label: 'Circular Orbit',
+    imageSmall: '/circular-600.webp',
+    imageMedium: '/circular.webp',
+    imageLarge: '/circular.png',
+  },
+  {
     id: 'attractors',
     href: 'https://attractors.jujiplay.com',
     label: 'Attractors',
@@ -28,22 +44,6 @@ const projects = [
     imageMedium: '/ball.webp',
     imageLarge: '/ball.png',
   },
-  {
-    id: 'circular',
-    href: 'https://circular.jujiplay.com',
-    label: 'Circular Orbit',
-    imageSmall: '/circular-600.webp',
-    imageMedium: '/circular.webp',
-    imageLarge: '/circular.png',
-  },
-  {
-    id: 'wallpaper',
-    href: 'https://wallpaper.jujiplay.com',
-    label: 'Wallpaper',
-    imageSmall: '/clifford-dejong-600.webp',
-    imageMedium: '/clifford-dejong.webp',
-    imageLarge: '/clifford-dejong.png',
-  }
 ]
 
 export default function Projects(){
