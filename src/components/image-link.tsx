@@ -25,6 +25,7 @@ export default function ImageLink({
     target="_blank"
     rel="noopener noreferer"
     className={`${styles.link} ${full?styles.full:''}`} href={href} aria-label={label}>
+    <span className={styles.title}>{label}</span>
     <picture>
       <source media="(max-width: 600px)" srcSet={imageSmall} />
       <source media="(min-width: 601px)" srcSet={imageMedium} />

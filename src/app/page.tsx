@@ -30,7 +30,7 @@ export default function Home() {
         </a>
 
         <h1 className={styles.h1}>It&apos;s play time!!</h1>
-        <p className={styles.p}>Checkout my playtime projects</p>
+        <p className={styles.p}>If's fun to code</p>
 
         <Projects />
 

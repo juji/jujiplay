@@ -8,6 +8,7 @@
   background: #000000;
   border: 1px solid rgb(69 69 69 / 87%);
   transition: border 300ms;
+  position: relative;
 
   & .image{
     display: block;
@@ -18,10 +19,28 @@
     transition: transform 300ms;
   }
 
+  & .title{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.8rem 2rem;
+    opacity: 0;
+    transition: opacity 200ms;
+    background: rgb( 21 21 21 / 80% );
+    z-index: 1;
+    color: var(--sign-bg);
+    font-size: 1.6rem;
+  }
+
   &.link:hover{
     border: 1px solid var(--sign-bg);
     & .image{
       transform: scale3d(1.1,1.1,1);
+    }
+
+    & .title{
+      opacity: 1;
     }
   }
 

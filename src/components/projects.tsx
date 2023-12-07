@@ -8,9 +8,9 @@ const projects = [
     href: 'https://boids.jujiplay.com',
     label: 'Boids',
     full: true,
-    imageSmall: '/boid-600.webp',
-    imageMedium: '/boid.webp',
-    imageLarge: '/boid.png',
+    imageSmall: '/boids-600.webp',
+    imageMedium: '/boids.webp',
+    imageLarge: '/boids.png',
   },
   {
     id: 'wallpaper',
