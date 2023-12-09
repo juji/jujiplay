@@ -12,7 +12,7 @@ const projects = [
     imageLarge: '/boids.png',
   },
   {
-    id: 'cliffor-dejong',
+    id: 'clifford-dejong',
     href: 'https://wallpaper.jujiplay.com',
     label: 'Clifford-Dejong',
     imageSmall: '/clifford-dejong-600.webp',
