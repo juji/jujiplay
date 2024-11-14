@@ -22,8 +22,6 @@ export default function ImageLink({
 
   return <a
     id={id}
-    target="_blank"
-    rel="noopener noreferer"
     className={`${styles.link} ${full?styles.full:''}`} href={href} aria-label={label}>
     <span className={styles.title}>{label}</span>
     <picture>
