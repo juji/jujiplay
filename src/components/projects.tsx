@@ -4,6 +4,14 @@ import ImageLink from './image-link'
 
 const projects = [
   {
+    id: 'bokeh',
+    href: 'https://grainy-bokeh.jujiplay.com/',
+    label: 'Grainy Bokeh',
+    imageSmall: '/bokeh-600.webp',
+    imageMedium: '/bokeh.webp',
+    imageLarge: '/bokeh.png',
+  },
+  {
     id: 'boids',
     href: 'https://boids.jujiplay.com',
     label: 'Boids',
