@@ -5,8 +5,8 @@ import ImageLink from './image-link'
 const projects = [
   {
     id: 'bokeh',
-    href: 'https://grainy-bokeh.jujiplay.com/',
-    label: 'Grainy Bokeh',
+    href: 'https://grainy-thing.jujiplay.com/',
+    label: 'Grainy Thing',
     imageSmall: '/bokeh-600.webp',
     imageMedium: '/bokeh.webp',
     imageLarge: '/bokeh.png',
