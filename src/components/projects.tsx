@@ -4,6 +4,14 @@ import ImageLink from './image-link'
 
 const projects = [
   {
+    id: 'balance',
+    href: 'https://balance.jujiplay.com/',
+    label: 'Balance',
+    imageSmall: '/balance-600.webp',
+    imageMedium: '/balance.webp',
+    imageLarge: '/balance.png',
+  },
+  {
     id: 'bokeh',
     href: 'https://grainy-thing.jujiplay.com/',
     label: 'Grainy Thing',
