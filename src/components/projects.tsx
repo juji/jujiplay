@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: 'clifford-dejong',
-    href: 'https://wallpaper.jujiplay.com',
+    href: 'https://cdw.jujiplay.com',
     label: 'Clifford-Dejong',
     imageSmall: '/clifford-dejong-600.webp',
     imageMedium: '/clifford-dejong.webp',
