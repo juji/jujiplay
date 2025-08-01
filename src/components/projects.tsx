@@ -28,9 +28,9 @@ const projects = [
     imageLarge: '/boids.png',
   },
   {
-    id: 'clifford-dejong',
-    href: 'https://cdw.jujiplay.com',
-    label: 'Clifford-Dejong',
+    id: 'chaos-canvas',
+    href: 'https://chaoscanvas.jujiplay.com',
+    label: 'Chaos Canvas',
     imageSmall: '/clifford-dejong-600.webp',
     imageMedium: '/clifford-dejong.webp',
     imageLarge: '/clifford-dejong.png',
