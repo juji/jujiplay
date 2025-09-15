@@ -4,6 +4,14 @@ import ImageLink from './image-link'
 
 const projects = [
   {
+    id: 'chaos-canvas',
+    href: 'https://chaoscanvas.jujiplay.com',
+    label: 'Chaos Canvas',
+    imageSmall: '/clifford-dejong-600.webp',
+    imageMedium: '/clifford-dejong.webp',
+    imageLarge: '/clifford-dejong.png',
+  },
+  {
     id: 'balance',
     href: 'https://balance.jujiplay.com/',
     label: 'Balance',
@@ -26,14 +34,6 @@ const projects = [
     imageSmall: '/boids-600.webp',
     imageMedium: '/boids.webp',
     imageLarge: '/boids.png',
-  },
-  {
-    id: 'chaos-canvas',
-    href: 'https://chaoscanvas.jujiplay.com',
-    label: 'Chaos Canvas',
-    imageSmall: '/clifford-dejong-600.webp',
-    imageMedium: '/clifford-dejong.webp',
-    imageLarge: '/clifford-dejong.png',
   },
   {
     id: 'circular',
